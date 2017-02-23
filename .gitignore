@@ -1,0 +1,7 @@
+*.pyc
+.swp
+staticfiles
+db.sqlite3
+.cache
+.env
+config

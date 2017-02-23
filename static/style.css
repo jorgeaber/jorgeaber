@@ -1,0 +1,53 @@
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+.picture {
+    width: 14em;
+    height: 14em;
+    border-radius: 50em;
+    margin: 0 auto 0;
+    background: #888;
+    background-image: url("https://pbs.twimg.com/profile_images/776251030979874816/DkkPgY-v.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main-name {
+    color: #000;
+    font-size: 3.3em;
+    margin: 1em 0 0.5em;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.about {
+    font-family: 'Merriweather', serif;
+    color: #777;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    max-width: 20em;
+    margin: 0 auto;
+}
+
+.links {
+    margin: 3em 0 0;
+}
+
+.link {
+    font-size: 2.3em;
+    color: #333;
+    margin: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: #999;
+}
